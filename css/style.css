@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Edu NSW ACT Foundation", cursive;
+  text-align: center;
+}
+
+.intro-image,
+.packaging-image,
+.tutorials-image {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  clip-path: polygon(0 0, 54% 0, 100% 0, 100% 100%, 52% 93%, 0 100%);
+  margin-bottom: -3rem;
+}
+
+a {
+  display: inline-block;
+  font-size: 3rem;
+  padding: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+.intro-text,
+.packaging-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  padding: 5rem;
+}
+
+.intro-image {
+  background-image: url("../images/candles-1.jpg");
+}
+
+.intro-image__text a,
+.packaging-image__text a,
+.tutorials-image__text a {
+  background-color: rgb(91, 62, 49, 0.4);
+  color: #fff;
+}
+
+.intro-text {
+  background-color: #8b6c5c;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.intro-text__textbox h2 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.packaging-image {
+  background-image: url("../images/candles-2.jpg");
+}
+
+.packaging-image__text a {
+  display: inline-block;
+  font-size: 3rem;
+  padding: 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+.packaging-image__text a:hover,
+.tutorials-image__text a:hover,
+.intro-image__text a:hover {
+  transform: scale(1.15);
+}
+
+.packaging-text {
+  background-color: #8b6c5c;
+  color: #e9edf6;
+  text-transform: uppercase;
+}
+
+.packaging_text__textbox h2 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.tutorials-image {
+  background-image: url("../images/candles-3.jpg");
+}
+
+.tutorials-image__text a {
+  display: inline-block;
+  font-size: 3rem;
+  padding: 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer {
+  color: #ccc;
+  background-color: #aaa;
+  padding: 2rem 0;
+  text-transform: uppercase;
+}
+
+.footer * {
+  font-size: 1.4rem;
+}
+
+.footer ul {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.footer ul li,
+.copyright {
+  color: #1864ab;
+  font-weight: 300;
+}
+
+.footer-links li a:link,
+.footer-links li a:visited {
+  color: #1864ab;
+  text-decoration: none;
+}
+
+.footer-links li a:hover {
+  transform: scale(1.2);
+  color: #6741d9;
+}
